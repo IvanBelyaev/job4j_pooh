@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/IvanBelyaev/job4j_pooh.svg?branch=main)](https://travis-ci.org/IvanBelyaev/job4j_pooh)
+[![codecov](https://codecov.io/gh/IvanBelyaev/job4j_pooh/branch/main/graph/badge.svg)](https://codecov.io/gh/IvanBelyaev/job4j_pooh)
+
 # Техническое задание - проект "Pooh JMS"
 
 В этом проекте мы сделаем аналог асинхронной очереди RabbitMQ.
