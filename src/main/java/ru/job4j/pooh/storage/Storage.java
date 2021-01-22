@@ -19,7 +19,7 @@ public class Storage {
      */
     private Map<String, BlockingQueue<String>> queues = new ConcurrentHashMap<>();
     /**
-     * Strorage for topics.
+     * Storage for topics.
      */
     private Map<String, CopyOnWriteArrayList<String>> topics = new ConcurrentHashMap<>();
 
@@ -53,9 +53,6 @@ public class Storage {
         BlockingQueue<String> queue = queues.get(name);
         if (queue != null) {
             result = queue.poll();
-            if (queue.isEmpty()) {
-                    queues.remove(name);
-            }
         }
         return result;
     }
